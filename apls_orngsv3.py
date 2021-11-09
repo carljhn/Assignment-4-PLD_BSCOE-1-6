@@ -7,3 +7,7 @@ def getTotalCost():
     orngs_cost=oranges_quant*25
     total_cost=apls_cost+orngs_cost
     return total_cost
+
+
+def display(total_costF):
+    print(f"The total amount is {total_costF}")
