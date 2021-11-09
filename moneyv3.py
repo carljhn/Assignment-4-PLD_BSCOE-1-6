@@ -10,3 +10,6 @@ def getMax_aplsChange():
 
 def display(max_aplsC, change):
     print(f"You can buy {max_aplsC} apples and your change is {change: .2f} pesos.")
+
+maxApls, Change=getMax_aplsChange()
+display(maxApls, Change)
