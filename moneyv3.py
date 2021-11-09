@@ -7,3 +7,6 @@ def getMax_aplsChange():
     total_=max_apls*apls_cost
     change_=money_-total_
     return max_apls, change_
+
+def display(max_aplsC, change):
+    print(f"You can buy {max_aplsC} apples and your change is {change: .2f} pesos.")
