@@ -8,6 +8,8 @@ def getTotalCost():
     total_cost=apls_cost+orngs_cost
     return total_cost
 
-
 def display(total_costF):
-    print(f"The total amount is {total_costF}")
+    print(f"The total amount is {total_costF} pesos.")
+    
+totalCost=getTotalCost()
+display(totalCost)
